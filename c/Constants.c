@@ -3,7 +3,7 @@
 
 int main(){
     
-    // Constants = fixed values that cannot be caltered by the program its execution 
+    // Constants = fixed values that cannot be altered by the program its execution 
 
     const float PI = 3.14159;
 

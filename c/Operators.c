@@ -32,6 +32,17 @@ int main() {
     float d = x / (float) y ;
     printf("Devision result %f\n",d);
 
+    // mod
+    int mod = x % y ;
+    printf(" Modulus result %d\n",mod);    
+
+    // increment
+    x++ ;
+    printf("Increment result %d\n",x);
+
+    // decrement 
+    y-- ;
+    printf("Decrement result %d\n",y);
 
 
 
