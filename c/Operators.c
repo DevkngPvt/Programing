@@ -3,7 +3,12 @@
 
 int main() {
 
-    // Arithmethic operators
+    // 1) Arithmethic operators
+    // 2) Augrmented assignment operators
+
+
+    //   Arithmethic operators
+    //  ------------------------
 
     // + (addition)
     // - (subtraction)
@@ -44,6 +49,11 @@ int main() {
     y-- ;
     printf("Decrement result %d\n",y);
 
+
+    //  Augrmented assignment operators
+    // ----------------------------------
+
+    //
 
 
     return 0 ;
