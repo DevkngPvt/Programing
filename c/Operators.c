@@ -39,7 +39,7 @@ int main() {
 
     // mod
     int mod = x % y ;
-    printf(" Modulus result %d\n",mod);    
+    printf("Modulus result %d\n",mod);    
 
     // increment
     x++ ;
@@ -53,7 +53,22 @@ int main() {
     //  Augrmented assignment operators
     // ----------------------------------
 
-    //
+    // Augremented assignment operators = Used To replace a statement where an operator
+    //                                    takes a varrible as one of its arugments 
+    //                                    and then assigns the result back to the same varible
+    //                                    x = x + 1
+    //                                    x+ = 1
+
+    // int x = 100 (Note That x value is already has been declared at Top ^ )
+
+    printf("Augrmented assignment operators results starts \n");
+    printf("----------------------------------------------- \n");
+
+    x = x + 2 ; // Increment x = x + 2 (or) x+=2
+    //x+=2100;
+    printf("AAS Operators Result %d \n ", x);
+
+
 
 
     return 0 ;
