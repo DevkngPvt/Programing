@@ -5,7 +5,7 @@
 int main() {
 
     char name[25] ;
-    int age ;
+    int age = 0 ;
 
     printf("\n What's Your Name ?");
 
@@ -18,7 +18,7 @@ int main() {
     printf("\n How old are you ?");
     scanf("%d" , &age);
 
-    printf("\n--------------------WELCOME-------------------\n");
+    printf("\n--------------------WELCOME-------------------\n"); 
     printf("\nHi %s \n", name);
     printf("You are %d years old \n", age);
 
