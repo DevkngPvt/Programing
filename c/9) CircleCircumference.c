@@ -19,7 +19,6 @@ int main() {
 
     printf("\nCircumference: %lf", circumference);
     printf("\nArea: %lf\n", area);
-    
 
     return 0 ;
 }

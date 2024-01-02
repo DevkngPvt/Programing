@@ -19,5 +19,6 @@ int main() {
 
     printf("Ans => %lf\n", C);
 
-    return 0 ;
+    return 0 ; 
+
 }
