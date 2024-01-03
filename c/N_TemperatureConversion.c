@@ -18,15 +18,17 @@ int main() {
         printf("\n Enter The temperature Celsius : ");
         scanf("%f",&temp);
         temp = (temp * 9 / 5) + 32 ;  // Formula 
-        printf("\nThe temperature in Farenheit is: %.1f");
+        printf("\nThe temperature in Farenheit is: %.1f", temp);
     }
     else if (unit == 'F'){
-        printf("\nThe temperature is currently in (F) ?\n");
+        printf("\n Enter The temperature Farnheit : ");
+        scanf("%f",&temp);
+        temp = ((temp - 32) * 5 ) / 9;
+        printf("\nThe temperature in Celsius is: %.2f\n", temp);
     }
     else{
         printf("\n %c Not a valid unit of measurement \n");
     }
-
 
 
     return 0 ;
